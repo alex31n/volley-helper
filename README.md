@@ -20,9 +20,9 @@ Add dependency
 ```
 dependencies {
         
-        implementation 'com.ornach.volleyhelper:volley-helper:1.0'  // for android studio 3.+
+        implementation 'com.ornach.volleyhelper:volley-helper:1.0.2'  // for android studio 3.+
 		
-        compile 'com.ornach.volleyhelper:volley-helper:1.0'         // for android studio 2.3 or older
+        compile 'com.ornach.volleyhelper:volley-helper:1.0.2'         // for android studio 2.3 or older
 }
 ```
 
