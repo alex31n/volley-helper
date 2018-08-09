@@ -32,7 +32,7 @@ dependencies {
 ## Usage
 Basic code
 ```
-RequestHelper.newInstance(context).httpResponseWithProgress(Request.Method.GET, url, new Listener() {
+RequestHelper.newInstance(context).httpResponseWithProgress(Method.GET, url, new Listener() {
             @Override
             public void onSuccess(String response) {
                 Log.d("TAG", "response "+response);
@@ -93,7 +93,7 @@ RequestHelper helper = RequestHelper.newInstance(this);
 helper.setParams(params);
 helper.setHeaders(headerParams);
 helper.setBody(body);
-helper.httpResponseWithProgress(Request.Method.POST, url, new Listener() {
+helper.httpResponseWithProgress(Method.POST, url, new Listener() {
     @Override
     public void onSuccess(String response) {
 	Log.d("TAG", "response "+response);
